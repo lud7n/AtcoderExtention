@@ -2,7 +2,7 @@
 // @name         AtCoder Result Text Changer
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  AtCoderの判定結果のテキストを変更します
+// @description  AtCoderの判定結果のテキストを煽り口調に変更します
 // @author       You
 // @match        https://atcoder.jp/contests/*/submissions*
 // @grant        none
@@ -12,11 +12,11 @@
     'use strict';
 
     const resultMap = {
-        'AC': '正解',
-        'WA': '不正解',
-        'TLE': '時間切れ',
-        'RE': '実行エラー',
-        'CE': 'コンパイルエラー',
+        'AC': 'おっそ（笑）',
+        'WA': '雑魚おつ（笑）',
+        'TLE': '計算量知ってる？（笑）',
+        'RE': 'お話にならない（笑）',
+        'CE': 'ちょｗｗｗ',
         'MLE': 'メモリ制限超過',
         'OLE': '出力制限超過',
         'IE': '内部エラー'
